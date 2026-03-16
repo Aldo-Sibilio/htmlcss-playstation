@@ -1,0 +1,18 @@
+/* FONT */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* SONY BAR */
+.sony-bar {
+  background: #000;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.sony-bar img {
+  height: 14px;
+}
