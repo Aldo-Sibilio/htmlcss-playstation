@@ -1,0 +1,1 @@
+Ricreare layout responsive della home page di PlayStation.
