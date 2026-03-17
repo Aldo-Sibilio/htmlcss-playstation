@@ -16,3 +16,34 @@ body {
 .sony-bar img {
   height: 14px;
 }
+
+/* HERO */
+.hero-main > img.w-100,
+.hero-secondary > img.w-100 {
+  width: 100%;
+  height: 520px;
+  object-fit: cover;
+}
+
+.hero-main .img-fluid.mb-3 {
+  max-width: 260px;
+}
+
+.hero-secondary .img-fluid.mb-3 {
+  max-width: 220px;
+}
+
+.hero-main .position-absolute,
+.hero-secondary .position-absolute {
+  z-index: 2;
+}
+
+.hero-main h1,
+.hero-secondary h2 {
+  font-weight: 700;
+}
+
+h2 sup{
+    font-size: 0.6em;
+}
+
