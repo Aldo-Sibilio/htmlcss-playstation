@@ -10,110 +10,113 @@
 </head>
 <body>
 
-     <!-- TOP BAR SONY -->
-  <div class="sony-bar">
-    <img src="./img/sony_logo.svg" alt="Sony">
-  </div>
+<!-- TOP BAR SONY -->
+<div class="sony-bar">
+  <img src="./img/sony_logo.svg" alt="Sony">
+</div>
 
-  <!-- NAVBAR PRINCIPALE -->
-  <nav class="navbar navbar-expand-lg bg-white sticky-top">
-    <div class="container-fluid">
+<!-- NAVBAR PRINCIPALE -->
+<nav class="navbar navbar-expand-lg bg-white sticky-top">
+  <div class="container-fluid">
 
-      <!-- Logo PlayStation -->
-      <a class="navbar-brand me-3" href="#">
-        <img src="./img/play_logo.svg" alt="PlayStation Logo" style="height: 30px;">
-      </a>
+    <!-- Logo PlayStation -->
+    <a class="navbar-brand me-3" href="#">
+      <img src="./img/play_logo.svg" alt="PlayStation Logo" style="height: 30px;">
+    </a>
 
-      <!-- Bottone hamburger mobile -->
-      <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Apri menu">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <!-- Bottone hamburger mobile -->
+    <button class="navbar-toggler border-0 shadow-none" type="button"
+      data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-       <!-- Contenuto navbar -->
-      <div class="collapse navbar-collapse" id="mainNavbar">
+    <!-- Contenuto navbar -->
+    <div class="collapse navbar-collapse" id="mainNavbar">
 
-        <!-- Menu sinistro -->
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <!-- Menu sinistro -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-          <!-- Dropdown Giochi -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Giochi
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">PS5</a></li>
-              <li><a class="dropdown-item" href="#">PS4</a></li>
-              <li><a class="dropdown-item" href="#">Nuove uscite</a></li>
-            </ul>
-          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Giochi</a>
+        </li>
 
-          <!-- Dropdown Hardware -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Hardware
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">PlayStation 5</a></li>
-              <li><a class="dropdown-item" href="#">Accessori</a></li>
-            </ul>
-          </li>
-
-          <!-- Dropdown Servizi -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Servizi
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">PlayStation Plus</a></li>
-              <li><a class="dropdown-item" href="#">PlayStation Now</a></li>
-            </ul>
-          </li>
-
-          <!-- Dropdown Notizie -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Notizie
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Ultime news</a></li>
-              <li><a class="dropdown-item" href="#">Blog</a></li>
-            </ul>
-          </li>
-
-          <!-- Dropdown Fai acquisti -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Fai acquisti
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">PlayStation Store</a></li>
-              <li><a class="dropdown-item" href="#">Offerte</a></li>
-            </ul>
-          </li>
-
-          <!-- Dropdown Supporto -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Supporto
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Assistenza</a></li>
-              <li><a class="dropdown-item" href="#">FAQ</a></li>
-            </ul>
-          </li>
-        </ul>
-        <!-- Menu destro -->
-        <div class="d-flex align-items-center gap-3">
-          <a href="#" class="text-dark text-decoration-none d-none d-lg-inline">My PlayStation</a>
-          <button class="btn btn-dark rounded-pill px-3">Accedi</button>
-          <a href="#" class="text-dark">
-            <i class="bi bi-search"></i>
+        <!-- HARDWARE MEGA MENU -->
+        <li class="nav-item dropdown position-static">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+            Hardware
           </a>
-        </div>
+
+          <div class="dropdown-menu mega-menu border-0 rounded-0 mt-0 p-0">
+
+            <!-- Desktop -->
+            <div class="d-none d-lg-block py-4">
+              <div class="container-fluid">
+
+                <div class="row justify-content-center text-center mb-3">
+                  <div class="col-2">
+                    <img src="./img/play-menu-ico.png" class="img-fluid mb-2">
+                    <p class="mb-0 small">Playstation 5</p>
+                  </div>
+
+                  <div class="col-2">
+                    <img src="./img/play-menu-ico.png" class="img-fluid mb-2">
+                    <p class="mb-0 small">Playstation 4</p>
+                  </div>
+
+                  <div class="col-2">
+                    <img src="./img/play-menu-ico.png" class="img-fluid mb-2">
+                    <p class="mb-0 small">Playstation 3</p>
+                  </div>
+                </div>
+
+                <div class="row justify-content-center text-center border-top pt-2">
+                  <div class="col-2 small text-primary">• Link Hardware</div>
+                  <div class="col-2 small text-primary">• Link Hardware</div>
+                  <div class="col-2 small text-primary">• Link Hardware</div>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Mobile -->
+            <div class="d-lg-none">
+              <a class="dropdown-item" href="#">PlayStation 5</a>
+              <a class="dropdown-item" href="#">Accessori</a>
+            </div>
+
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Servizi</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Notizie</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Fai acquisti</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Supporto</a>
+        </li>
+
+      </ul>
+
+      <!-- Menu destro -->
+      <div class="d-flex align-items-center gap-3 mt-3 mt-lg-0">
+        <a href="#" class="text-dark text-decoration-none d-none d-lg-inline">My PlayStation</a>
+        <button class="btn btn-dark rounded-pill px-3">Accedi</button>
+        <a href="#" class="text-dark">
+          <i class="bi bi-search"></i>
+        </a>
       </div>
+
     </div>
-  </nav>
-  <main>
+  </div>
+</nav>
 
       <!-- HERO PRINCIPALE -->
     <section class="hero-main position-relative text-white">
@@ -505,6 +508,3 @@
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
-</body>
-</html>
